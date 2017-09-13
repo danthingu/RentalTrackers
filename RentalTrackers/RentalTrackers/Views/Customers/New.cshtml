@@ -1,0 +1,9 @@
+﻿@model dynamic
+
+@{
+	ViewBag.Title = "title";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>New Customer</h2>
+@Html.BeginForm("Create", "Customers")

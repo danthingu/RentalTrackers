@@ -1,0 +1,16 @@
+﻿@model RentalTrackers.Models.Movie
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<ul>
+	<li>Genre: @Model.MovieInfo.Genre</li>
+	<li>Release Date: @Model.MovieInfo.ReleaseDate</li>
+	<li>Date Added: @Model.MovieInfo.DateAdded</li>
+	<li>Number in Stock: @Model.MovieInfo.NumberInStock</li>
+	
+</ul>
+
