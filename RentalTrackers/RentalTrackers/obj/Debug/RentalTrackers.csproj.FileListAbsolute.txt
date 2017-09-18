@@ -101,6 +101,6 @@ C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\Tracker\RentalTracke
 C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\Tracker\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.PopulateNameToMembershipType.resources
 C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\Tracker\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.AddBirthdayToCustomer.resources
 C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\Tracker\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.PopulateBirthdayToCustomerTable.resources
-C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\Tracker\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.UpdateMovieAndMovieInfo.resources
-C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\Tracker\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.PopulateMovieInfo.resources
-C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\Tracker\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.PopulateMovie.resources
+C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\Tracker\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.AddMovieAndGenre.resources
+C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\Tracker\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.Genres.resources
+C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\Tracker\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.DateTimeNotRequiredForDateAdd.resources
