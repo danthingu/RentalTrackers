@@ -2,12 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-using AutoMapper;
-using RentalTrackers.App_Start;
 
 namespace RentalTrackers
 {
@@ -15,8 +12,6 @@ namespace RentalTrackers
     {
         protected void Application_Start()
         {
-            Mapper.Initialize(_ => _.AddProfile<MappingProfile>());
-            GlobalConfiguration.Configure(WebApiConfig.Register);
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

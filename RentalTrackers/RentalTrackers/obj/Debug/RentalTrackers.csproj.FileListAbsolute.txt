@@ -160,10 +160,7 @@ C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrack
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\Newtonsoft.Json.dll
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\Owin.dll
-C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\System.Net.Http.Formatting.dll
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\System.Web.Helpers.dll
-C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\System.Web.Http.dll
-C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\System.Web.Http.WebHost.dll
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\System.Web.Mvc.dll
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\System.Web.Optimization.dll
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\System.Web.Razor.dll
@@ -172,9 +169,6 @@ C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrack
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\System.Web.WebPages.Razor.dll
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\WebGrease.dll
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\System.Net.Http.Formatting.xml
-C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\System.Web.Http.xml
-C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\System.Web.Http.WebHost.xml
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\System.Web.Helpers.xml
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\System.Web.Mvc.xml
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\System.Web.Optimization.xml
@@ -217,5 +211,3 @@ C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrack
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.csproj.CoreCompileInputs.cache
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.dll
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.pdb
-C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\AutoMapper.dll
-C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\Trackers\RentalTrackers\RentalTrackers\RentalTrackers\bin\AutoMapper.xml

@@ -24,7 +24,7 @@ namespace RentalTrackers
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/StyleSheet1.css",
+                      "~/Content/bootstrap.css",
                       "~/Content/Site.css"));
         }
     }

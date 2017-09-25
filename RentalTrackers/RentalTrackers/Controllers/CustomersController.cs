@@ -25,7 +25,7 @@ namespace RentalTrackers.Controllers
         {
             var membershipTypes = _context.MembershipTypes.ToList();
             var viewModel = new CustomerFormViewModel {MembershipTypes = membershipTypes};
-            return View("CustomerForm", viewModel);
+            return View("CustomerForm");
         }
         public ViewResult Index()
         {
