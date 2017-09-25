@@ -8,7 +8,12 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+<<<<<<< HEAD
     <ProjectView>ShowAllFiles</ProjectView>
+=======
+    <WebStackScaffolding_ControllerDialogWidth>600</WebStackScaffolding_ControllerDialogWidth>
+    <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
+>>>>>>> 2f3342e... add everything include web api
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

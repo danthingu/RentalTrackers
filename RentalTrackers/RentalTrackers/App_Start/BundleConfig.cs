@@ -24,8 +24,13 @@ namespace RentalTrackers
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+<<<<<<< HEAD
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+=======
+                      "~/Content/StyleSheet1.css",
+                      "~/Content/Site.css"));
+>>>>>>> 2f3342e... add everything include web api
         }
     }
 }

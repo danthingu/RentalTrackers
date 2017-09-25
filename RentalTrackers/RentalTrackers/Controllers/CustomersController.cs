@@ -20,6 +20,15 @@ namespace RentalTrackers.Controllers
             _context.Dispose();
         }
 
+<<<<<<< HEAD
+=======
+        public ActionResult New()
+        {
+            var membershipTypes = _context.MembershipTypes.ToList();
+            var viewModel = new CustomerFormViewModel {MembershipTypes = membershipTypes};
+            return View("CustomerForm", viewModel);
+        }
+>>>>>>> 2f3342e... add everything include web api
         public ViewResult Index()
         {
             var customers = _context.Customers.Include(c => c.MembershipType).ToList();
