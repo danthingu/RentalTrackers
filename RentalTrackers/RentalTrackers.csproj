@@ -250,6 +250,10 @@
     <Compile Include="Migrations\201709180000088_DateTimeNotRequiredForDateAdd.Designer.cs">
       <DependentUpon>201709180000088_DateTimeNotRequiredForDateAdd.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709260603383_AddRequirementForMovie.cs" />
+    <Compile Include="Migrations\201709260603383_AddRequirementForMovie.Designer.cs">
+      <DependentUpon>201709260603383_AddRequirementForMovie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -274,6 +278,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootbox.js" />
+    <Content Include="Scripts\bootbox.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -380,6 +386,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709180000088_DateTimeNotRequiredForDateAdd.resx">
       <DependentUpon>201709180000088_DateTimeNotRequiredForDateAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709260603383_AddRequirementForMovie.resx">
+      <DependentUpon>201709260603383_AddRequirementForMovie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
