@@ -45,9 +45,8 @@ namespace RentalTrackers.Controllers
             //movieInDb.ReleaseDate = movieInDb.ReleaseDate;
             //movieInDb.Genre = movieInDb.Genre;
             //movieInDb.NumberInStock = movieInDb.NumberInStock;
-            var viewModel = new MovieFormViewModel
+            var viewModel = new MovieFormViewModel(movieInDb)
             {
-                Movie = movieInDb,
                 Genres = _context.Genres.ToList(),
                 Title = "Edit Movie Info"
             };
@@ -93,6 +92,19 @@ namespace RentalTrackers.Controllers
         [HttpPost]
         public ActionResult Save(Movie movie)
         {
+            if (!ModelState.IsValid)
+            {
+                var viewModel = new MovieFormViewModel
+                {
+                    DateAdded = movie.DateAdded,
+                    GenreId = movie.GenreId,
+                    Name = movie.Name,
+                    NumberInStock= movie.NumberInStock,
+                    ReleaseDate = movie.ReleaseDate,
+                    Genres = _context.Genres.ToList()
+                };
+                return View("MovieForm", viewModel);
+            }
             if (movie.Id == 0)
             {
                 _context.Movies.Add(movie);
