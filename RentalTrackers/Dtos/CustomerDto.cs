@@ -11,6 +11,7 @@ namespace RentalTrackers.Dtos
     {
         public int Id { get; set; }
 
+        [Required]
         [StringLength(255)]
         public string Name { get; set; }
 
@@ -20,7 +21,7 @@ namespace RentalTrackers.Dtos
 
         public MembershipTypeDto MembershipType { get; set; }
 
-        //[Min18YearsIfMember]
+        //        [Min18YearsIfAMember]
         public DateTime? Birthdate { get; set; }
     }
 }

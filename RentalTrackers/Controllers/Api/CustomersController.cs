@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Data.Entity;
+using System.Data.Entity.Validation;
 using System.Net.Http;
 using System.Web.Http;
 using RentalTrackers.Dtos;
@@ -32,7 +33,7 @@ namespace RentalTrackers.Controllers.Api
         // GET /api/customers/1
         public IHttpActionResult GetCustomers(int id)
         {
-            var customer = _context.Customers.Single(_=>_.Id == id);
+            var customer = _context.Customers.Single(_ => _.Id == id);
             if (customer == null)
                 return NotFound();
             return Ok(Mapper.Map<Customer, CustomerDto>(customer));
@@ -40,13 +41,26 @@ namespace RentalTrackers.Controllers.Api
 
         // POST /api/customers
         [HttpPost]
-        public IHttpActionResult CreateCustomer(CustomerDto customerDto) 
+        public IHttpActionResult CreateCustomer(CustomerDto customerDto)
         {
             if (ModelState.IsValid)
             {
                 var customer = Mapper.Map<CustomerDto, Customer>(customerDto);
                 _context.Customers.Add(customer);
-                _context.SaveChanges();
+                try
+                {
+                    _context.SaveChanges();
+                }
+                catch (DbEntityValidationException ex)
+                {
+                    foreach (var entityValidationErrors in ex.EntityValidationErrors)
+                    {
+                        foreach (var validationError in entityValidationErrors.ValidationErrors)
+                        {
+                            Console.Write("Property: " + validationError.PropertyName + " Error: " + validationError.ErrorMessage);
+                        }
+                    }
+                }
                 customerDto.Id = customer.Id;
                 return Created(new Uri(Request.RequestUri + "/" + customer.Id), customerDto);
             }
@@ -67,7 +81,7 @@ namespace RentalTrackers.Controllers.Api
                 if (selectedCustomer == null) throw new HttpResponseException(HttpStatusCode.NotFound);
 
                 Mapper.Map<CustomerDto, Customer>(customerDto, selectedCustomer);
-            
+
                 _context.SaveChanges();
             }
             else
@@ -75,7 +89,7 @@ namespace RentalTrackers.Controllers.Api
                 throw new HttpResponseException(HttpStatusCode.BadRequest);
             }
         }
-        
+
         // DELETE /api/customers
         [HttpDelete]
         public void DeleteCustomer(int id)
@@ -83,7 +97,7 @@ namespace RentalTrackers.Controllers.Api
             if (ModelState.IsValid)
             {
                 var selectedCustomer = _context.Customers.Single(_ => _.Id == id);
-                if (selectedCustomer == null)   throw new HttpResponseException(HttpStatusCode.NotFound);
+                if (selectedCustomer == null) throw new HttpResponseException(HttpStatusCode.NotFound);
 
                 _context.Customers.Remove(selectedCustomer);
                 _context.SaveChanges();

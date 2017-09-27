@@ -16,7 +16,7 @@ namespace RentalTrackers.App_Start
             Mapper.CreateMap<CustomerDto, Customer>();
 
             Mapper.CreateMap<MembershipType, MembershipTypeDto>();
-            //Mapper.CreateMap<MembershipTypeDto, MembershipType>();
+            Mapper.CreateMap<MembershipTypeDto, MembershipType>();
         }
     }
 }
