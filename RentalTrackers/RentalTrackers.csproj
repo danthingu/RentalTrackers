@@ -205,13 +205,16 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\Api\CustomersController.cs" />
+    <Compile Include="Controllers\Api\MoviesController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MangasController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Dtos\CustomerDto.cs" />
+    <Compile Include="Dtos\GenreDto.cs" />
     <Compile Include="Dtos\MembershipTypeDto.cs" />
+    <Compile Include="Dtos\MovieDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -239,21 +242,17 @@
     <Compile Include="Migrations\201708272226000_PopulateBirthdayToCustomerTable.Designer.cs">
       <DependentUpon>201708272226000_PopulateBirthdayToCustomerTable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201709172327273_AddMovieAndGenre.cs" />
-    <Compile Include="Migrations\201709172327273_AddMovieAndGenre.Designer.cs">
-      <DependentUpon>201709172327273_AddMovieAndGenre.cs</DependentUpon>
+    <Compile Include="Migrations\201710060713278_UpdateMovieAndGenres.cs" />
+    <Compile Include="Migrations\201710060713278_UpdateMovieAndGenres.Designer.cs">
+      <DependentUpon>201710060713278_UpdateMovieAndGenres.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201709172330463_Genres.cs" />
-    <Compile Include="Migrations\201709172330463_Genres.Designer.cs">
-      <DependentUpon>201709172330463_Genres.cs</DependentUpon>
+    <Compile Include="Migrations\201710060727271_UpdateGenres.cs" />
+    <Compile Include="Migrations\201710060727271_UpdateGenres.Designer.cs">
+      <DependentUpon>201710060727271_UpdateGenres.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201709180000088_DateTimeNotRequiredForDateAdd.cs" />
-    <Compile Include="Migrations\201709180000088_DateTimeNotRequiredForDateAdd.Designer.cs">
-      <DependentUpon>201709180000088_DateTimeNotRequiredForDateAdd.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709260603383_AddRequirementForMovie.cs" />
-    <Compile Include="Migrations\201709260603383_AddRequirementForMovie.Designer.cs">
-      <DependentUpon>201709260603383_AddRequirementForMovie.cs</DependentUpon>
+    <Compile Include="Migrations\201710060741153_update.cs" />
+    <Compile Include="Migrations\201710060741153_update.Designer.cs">
+      <DependentUpon>201710060741153_update.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -552,17 +551,14 @@
     <EmbeddedResource Include="Migrations\201708272226000_PopulateBirthdayToCustomerTable.resx">
       <DependentUpon>201708272226000_PopulateBirthdayToCustomerTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709172327273_AddMovieAndGenre.resx">
-      <DependentUpon>201709172327273_AddMovieAndGenre.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201710060713278_UpdateMovieAndGenres.resx">
+      <DependentUpon>201710060713278_UpdateMovieAndGenres.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709172330463_Genres.resx">
-      <DependentUpon>201709172330463_Genres.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201710060727271_UpdateGenres.resx">
+      <DependentUpon>201710060727271_UpdateGenres.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709180000088_DateTimeNotRequiredForDateAdd.resx">
-      <DependentUpon>201709180000088_DateTimeNotRequiredForDateAdd.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709260603383_AddRequirementForMovie.resx">
-      <DependentUpon>201709260603383_AddRequirementForMovie.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201710060741153_update.resx">
+      <DependentUpon>201710060741153_update.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

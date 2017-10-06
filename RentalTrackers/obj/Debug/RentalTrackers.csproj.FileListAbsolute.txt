@@ -557,11 +557,10 @@ C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\Renta
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.PopulateNameToMembershipType.resources
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.AddBirthdayToCustomer.resources
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.PopulateBirthdayToCustomerTable.resources
-C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.AddMovieAndGenre.resources
-C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.Genres.resources
-C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.DateTimeNotRequiredForDateAdd.resources
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.csproj.GenerateResource.Cache
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.csproj.CoreCompileInputs.cache
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.dll
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.pdb
-C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.AddRequirementForMovie.resources
+C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.UpdateMovieAndGenres.resources
+C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.UpdateGenres.resources
+C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.update.resources

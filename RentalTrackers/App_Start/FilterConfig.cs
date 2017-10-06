@@ -7,7 +7,8 @@ namespace RentalTrackers
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            filters.Add(new HandleErrorAttribute());
+            filters.Add(new HandleErrorAttribute()); // redirect user to error pages when action throws exception
+            filters.Add(new AuthorizeAttribute());
         }
     }
 }
