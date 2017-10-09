@@ -54,9 +54,9 @@ namespace RentalTrackers
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "375391039562069",
+               appSecret: "47a6abf81dac53a6de3f22e2c6c388d1");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{

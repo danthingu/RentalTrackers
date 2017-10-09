@@ -22,8 +22,10 @@ namespace RentalTrackers.Controllers
         public ViewResult Index()
         {
             //var movies = GetMovies();
-            var movies = _context.Movies.Include(m => m.Genre).ToList();
-            return View(movies);    
+            //var movies = _context.Movies.Include(m => m.Genre).ToList();
+            if(User.IsInRole(RoleName.CanManageMovies))
+                return View("List");
+            return View("ReadOnlyList");
         }
 
 
@@ -81,7 +83,7 @@ namespace RentalTrackers.Controllers
 
             return View(viewModel);
         }
-
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult New()
         {
             var genres = _context.Genres.ToList();

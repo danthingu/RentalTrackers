@@ -20,11 +20,18 @@ namespace RentalTrackers.Controllers.Api
         {
             _context = new ApplicationDbContext();
         }
-
-        public IEnumerable<MovieDto> GetMovies()
+        public IHttpActionResult GetMovies()
         {
-            return _context.Movies.ToList().Select(Mapper.Map<Movie, MovieDto>);
+            var movieDtos = _context.Movies
+                .Include(_ => _.Genre)
+                .ToList()
+                .Select(Mapper.Map<Movie, MovieDto>);
+            return Ok(movieDtos);
         }
+        //public IEnumerable<MovieDto> GetMovies()
+        //{
+        //    return _context.Movies.ToList().Select(Mapper.Map<Movie, MovieDto>);
+        //}
 
         public IHttpActionResult GetMovie(int id)
         {
