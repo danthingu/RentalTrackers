@@ -442,9 +442,6 @@ C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\Renta
 C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.PopulateNameToMembershipType.resources
 C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.AddBirthdayToCustomer.resources
 C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.PopulateBirthdayToCustomerTable.resources
-C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.AddMovieAndGenre.resources
-C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.Genres.resources
-C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.DateTimeNotRequiredForDateAdd.resources
 C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.csproj.GenerateResource.Cache
 C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.csproj.CoreCompileInputs.cache
 C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.dll
@@ -565,3 +562,10 @@ C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\Renta
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.csproj.CoreCompileInputs.cache
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.dll
 C:\Users\Thien Nguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.pdb
+C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.UpdateMovieAndGenres.resources
+C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.UpdateGenres.resources
+C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.SeedUsers.resources
+C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.AddNewRentalToDomain.resources
+C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.AddCustomerMovieDateTimeToNewRental.resources
+C:\Users\danielnguyen\Documents\Visual Studio 2017\Projects\RentalTrackers\RentalTrackers\obj\Debug\RentalTrackers.Migrations.NumberAvailableInMovieDomain.resources

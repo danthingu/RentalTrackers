@@ -8,6 +8,10 @@ namespace RentalTrackers.Models
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
+
+        [Required]
+        [Display(Name = "DrivingLicense")]
+        public string DrivingLicense { get; set; }
     }
 
     public class ExternalLoginListViewModel
