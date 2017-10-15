@@ -20,18 +20,16 @@ namespace RentalTrackers.Controllers.Api
         {
             _context = new ApplicationDbContext();
         }
-        public IHttpActionResult GetMovies()
+        public IHttpActionResult GetMovies(string query = null)
         {
-            var movieDtos = _context.Movies
-                .Include(_ => _.Genre)
-                .ToList()
-                .Select(Mapper.Map<Movie, MovieDto>);
+            var moviesQuery = _context.Movies.Include(_ => _.Genre).Where(_=>_.NumberInStock > 0);
+            if (!String.IsNullOrWhiteSpace(query))
+            {
+                moviesQuery = moviesQuery.Where(_ => _.Name.Contains(query));
+            }
+            var movieDtos = moviesQuery.ToList().Select(Mapper.Map<Movie, MovieDto>);
             return Ok(movieDtos);
         }
-        //public IEnumerable<MovieDto> GetMovies()
-        //{
-        //    return _context.Movies.ToList().Select(Mapper.Map<Movie, MovieDto>);
-        //}
 
         public IHttpActionResult GetMovie(int id)
         {
@@ -89,4 +87,5 @@ namespace RentalTrackers.Controllers.Api
             return Ok();
         }
     }
+
 }

@@ -30,7 +30,7 @@ namespace RentalTrackers.Controllers.Api
             return Ok(Mapper.Map<Movie, MovieDto>(movie));
         }
         [HttpPost]
-        public IHttpActionResult GetMovies(NewRentalDto rentalDto)
+        public IHttpActionResult GetMovies(NewRentalsDto rentalDto)
         {
             if (!ModelState.IsValid)
                 return BadRequest();
